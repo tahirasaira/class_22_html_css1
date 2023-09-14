@@ -1,0 +1,45 @@
+input:checked{
+    height:24px;
+    width:23px;
+    accent-color: red;
+
+}
+input:enabled{
+    background-color:rgb(43, 137, 226);
+}
+input:disabled{
+    background-color:rgb(193, 245, 8);
+}
+p:empty{
+    height:50px;
+    width:100px;
+    background-color: plum;
+}
+input:in-range{
+    border:3px solid red;
+
+}
+input:out-of-range{
+    border:3px solid rgb(202, 224, 8);
+
+}
+input:valid{
+    color: brown;
+    border:black;
+}
+input:invalid{
+    color: rgb(42, 120, 165);
+    border:black;
+}
+
+div.main-box1 p:nth-child(even)
+{
+    color:palevioletred;
+}
+div.main-box2 :last-child{
+    color:brown;
+}
+div.main-box2 p:nth-child(2)
+{color:rgb(231, 28, 28);}
+div.main-box2 p:nth-child(1)
+{color:rgb(82, 28, 231);}
